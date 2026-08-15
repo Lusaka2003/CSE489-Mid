@@ -1,0 +1,27 @@
+AI usage
+========
+
+An AI coding assistant (Cursor) was used to implement this project from the lab exam PDF.
+
+What the AI did
+---------------
+- Read CSE_489_Lab_Exam_v5.pdf and the public OSM demo at labs.anontech.info/cse489/exm3
+  to learn response fields (id, title, lat, lon, image, score, visit_count, avg_distance, is_active)
+- Generated the Gradle/Compose project structure
+- Implemented Retrofit calls, Room entities, the repository, and WorkManager sync
+- Built the four bottom-navigation screens (OSMDroid map, list+filter, visit history, add/restore)
+- Wrote this file and README.txt
+
+What I did / own
+----------------
+- Provided the exam PDF and workspace
+- Will insert my unique API key
+- Will run the app on a device, test visit polling, offline queue, create/delete, and fix anything
+  the server rejects (field names, etc.)
+- Will create the private GitHub repo, add collaborator rahman9909, and submit the form
+
+Limits
+------
+The assistant did not have my API key, so live endpoint bodies for create/delete/restore were
+inferred from the PDF (JSON for visit, form-data for create, form fields for delete/restore).
+I will verify those against the live API before final submission.
